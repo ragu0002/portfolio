@@ -1,0 +1,157 @@
+reset * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*GLOBALE VARIABLER*/
+:root {
+  /*FARGER*/
+  --bakgrunn: #fefcee;
+  --tekst1: #0c194c;
+  --tekst2: #33489e;
+  --tekst3: #fefcee;
+  --mappe_1: #71c7f3;
+  --mappe_2: #439fd9;
+  --mappe_3: #3781af;
+  --mappe_4: #2b6386;
+  --mappe_5: #25526e;
+  --mappe_6: #1d3f54;
+
+  /*TEKST*/
+  --hero: var(--tekst1);
+  --h1: var(--tekst3);
+
+  /*MARGIN*/
+}
+
+/*FONT*/
+@font-face {
+  font-family: small-text-light;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Helvetica Light"), url("helvetica-light-587ebe5a59211.woff") format("woff");
+}
+@font-face {
+  font-family: under-oversrift;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Helvetica"), url("Helvetica-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: small-text-mørk;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Helvetica"), url("Helvetica.woff") format("woff");
+}
+@font-face {
+  font-family: text;
+
+  font-style: normal;
+  font-weight: normal;
+  src: local("Helvetica"), url("Helvetica.woff") format("woff");
+}
+
+@font-face {
+  font-family: small-text-kursiv;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Helvetica-Oblique.woff") format("woff");
+}
+h2 {
+  font-family: text;
+  font-size: 1.5rem;
+}
+h3 {
+  font-family: text;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: text;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+p {
+  font-family: text;
+  color: var(--tekst2);
+  text-align: center;
+}
+
+h1 {
+  font-family: "miller-text", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.8rem;
+  color: var(--tekst1);
+}
+.hero h1 {
+  font-size: 4.2rem;
+  text-align: center;
+  color: var(--tekst1);
+}
+.hero p {
+  font-family: text;
+  color: var(--tekst2);
+  text-align: center;
+}
+.col p {
+  text-align: start;
+}
+
+/*SECTIONS*/
+html {
+  background-color: var(--bakgrunn);
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  margin: 7vh 3vh 7vh 3vh;
+}
+/* LINKS */
+a {
+  font-family: text;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu a {
+  font-family: small-text-kursiv;
+
+  color: var(--tekst2);
+}
+.menu a:hover {
+  color: var(--tekst1);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+/*STYLE*/
+hr {
+  border: none;
+  border-top: 2px solid var(--tekst3);
+  width: 80%;
+  margin: 0 auto;
+}
+.circle {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 3px solid var(--tekst2);
+  border-radius: 50px;
+}
