@@ -155,3 +155,11 @@ hr {
   border: 3px solid var(--tekst2);
   border-radius: 50px;
 }
+body {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+main {
+  margin-right: 10vh;
+  margin-left: 10vh;
+}
