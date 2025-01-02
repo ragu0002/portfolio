@@ -126,11 +126,12 @@ a {
 }
 .menu a {
   font-family: small-text-kursiv;
-
+  font-size: 0.8rem;
   color: var(--tekst2);
 }
 .menu a:hover {
   color: var(--tekst1);
+  transform: scale(1.1);
 }
 
 ul {
@@ -142,6 +143,15 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: 1024px) {
+  .menu a {
+    font-size: 1.2rem;
+  }
+  header {
+    margin: 10vh 15vh 10vh 15vh;
+  }
+}
 /*STYLE*/
 hr {
   border: none;
@@ -152,14 +162,6 @@ hr {
 .circle {
   display: inline-block;
   padding: 10px 20px;
-  border: 3px solid var(--tekst2);
+  border: 2px solid var(--tekst2);
   border-radius: 50px;
-}
-body {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-main {
-  margin-right: 10vh;
-  margin-left: 10vh;
 }

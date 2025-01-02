@@ -2,6 +2,14 @@
 .grid_1-1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 10vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  row-gap: 5vh;
+}
+.grid_1-1-1-1 img {
+  width: 15vh;
+  margin: 0 auto;
 }
 .bilde1 {
   grid-column: 2 / span 1;
@@ -34,20 +42,21 @@
 .bilde6:hover {
   scale: 1.2;
 }
-
-/* Scroll down button container */
-.scroll_down {
-  background-image: url("../bilder/scroll_down.svg"); /* Make sure the path to the image is correct */
-  width: 100px; /* Set a fixed width */
-  height: 100px; /* Set a fixed height */
-  background-repeat: no-repeat;
-  background-size: contain; /* Ensure the image fits inside the div */
-  display: inline-block; /* Make the div inline so it aligns with other content */
-  cursor: pointer; /* Change cursor to a pointer on hover */
-  transition: transform 0.3s ease;
+.hero p {
+  margin-top: -5vh;
+  margin-bottom: 15vh;
 }
-
-/* Hover effect */
+.forside_p {
+  margin-right: 10vh;
+  margin-left: 10vh;
+}
+.scroll_down img {
+  width: 8vh;
+  border: 2px solid var(--tekst2);
+  border-radius: 70px;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
 .scroll_down:hover {
   transform: scale(1.1);
 }
@@ -57,14 +66,24 @@ figcaption {
   text-align: center;
   color: var(--tekst1);
 }
+.standing_folder {
+  margin-top: 15vh;
+}
+.standing_folder img {
+  width: 30vh;
+  margin: 0 auto;
+}
 .standing_folder:hover {
   scale: 1.05;
 }
 
 @media (min-width: 1024px) {
   .standing_folder img {
-    width: 50%;
+    width: 35vh;
     margin: 0 auto;
+  }
+  .standing_folder {
+    margin-top: -0.5vh;
   }
   .hero {
     margin-top: -12vh;
@@ -73,10 +92,26 @@ figcaption {
     font-size: 8rem;
   }
   .hero p {
-    margin-top: -10vh;
+    margin-top: -11vh;
+    margin-bottom: 8vh;
+  }
+  .forside_p {
+    margin-right: 45vh;
+    margin-left: 45vh;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  .grid_1-1-1-1 {
+    margin-top: 10vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+  }
+  .grid_1-1-1-1 img {
+    width: 20vh;
+  }
+  figcaption {
+    font-size: 1.1rem;
   }
 }
 /*PORTFOLIO*/

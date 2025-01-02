@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1076.92 917.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #449fd8;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #73c6ef;
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-2);
+      }
+    </style>
+    <filter id="drop-shadow-1" x="-12.21" y="-24.47" width="1124.4" height="412.8" filterUnits="userSpaceOnUse">
+      <feOffset dx="20" dy="20"/>
+      <feGaussianBlur result="blur" stdDeviation="30"/>
+      <feFlood flood-color="#231f20" flood-opacity=".4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="-32.37" y="31.93" width="1124.64" height="836.4" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="-40"/>
+      <feGaussianBlur result="blur-2" stdDeviation="30"/>
+      <feFlood flood-color="#231f20" flood-opacity=".4"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" x="-25.41" y="111.74" width="1124.64" height="836.4" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="40"/>
+      <feGaussianBlur result="blur-3" stdDeviation="30"/>
+      <feFlood flood-color="#231f20" flood-opacity=".4"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M57.82,246.38V99.06c0-29.49,23.9-53.39,53.39-53.39h202.32c22.94,0,45.35,7.17,63.9,20.66,24.59,17.88,60.05,41.03,80.02,42.11,26.08,1.41,356.71.57,489.74.17,30.31-.09,54.9,24.45,54.9,54.76v82.99c0,17.58-14.25,31.83-31.83,31.83H89.65c-17.58,0-31.83-14.25-31.83-31.83h0Z"/>
+  <rect class="cls-3" x="57.82" y="161.94" width="944.29" height="656.16" rx="48.83" ry="48.83"/>
+  <rect class="cls-2" x="57.82" y="161.94" width="944.29" height="656.16" rx="48.83" ry="48.83"/>
+</svg>

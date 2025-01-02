@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 910.45 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #449fd8;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: #73c6ef;
+        filter: url(#drop-shadow-2);
+      }
+    </style>
+    <filter id="drop-shadow-1" x="539.14" y="-2.38" width="412.8" height="1124.64" filterUnits="userSpaceOnUse">
+      <feOffset dx="20" dy="20"/>
+      <feGaussianBlur result="blur" stdDeviation="30"/>
+      <feFlood flood-color="#231f20" flood-opacity=".4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="19.3" y="-2.38" width="836.4" height="1124.64" filterUnits="userSpaceOnUse">
+      <feOffset dx="40" dy="20"/>
+      <feGaussianBlur result="blur-2" stdDeviation="30"/>
+      <feFlood flood-color="#231f20" flood-opacity=".4"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M641.13,67.86h147.32c29.49,0,53.39,23.9,53.39,53.39v202.32c0,22.94-7.17,45.35-20.66,63.9-17.88,24.59-41.03,60.05-42.11,80.02-1.41,26.08-.57,356.71-.17,489.74.09,30.31-24.45,54.9-54.76,54.9h-82.99c-17.58,0-31.83-14.25-31.83-31.83V99.69c0-17.58,14.25-31.83,31.83-31.83h0Z"/>
+  <rect class="cls-2" x="69.41" y="67.86" width="656.16" height="944.29" rx="48.83" ry="48.83"/>
+</svg>
