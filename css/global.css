@@ -81,6 +81,7 @@ p {
   font-family: small-text-light;
   color: var(--tekst2);
   text-align: center;
+  font-size: 1rem;
 }
 
 h1 {
@@ -162,4 +163,73 @@ hr {
   padding: 10px 20px;
   border: 2px solid var(--tekst2);
   border-radius: 50px;
+}
+.scroll_down img {
+  width: 8vh;
+  border: 2px solid var(--tekst2);
+  border-radius: 70px;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
+.scroll_down:hover {
+  transform: scale(1.1);
+}
+/*footer*/
+.footer_icon {
+  width: 3vh;
+  margin-right: 0.5vh;
+}
+.footer_contact {
+  margin: 0;
+  text-align: center;
+}
+.footer_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 1vh auto 0 auto;
+}
+
+.footer_info img {
+  justify-content: start;
+}
+#scroll_up {
+  rotate: 180deg;
+}
+.grid_1-1 .scroll_down {
+  align-self: end;
+  justify-self: end;
+}
+footer hr {
+  border-top: 1px solid var(--tekst2);
+  margin-top: 10vh;
+}
+.footer_contact h3 {
+  font-family: under-oversrift;
+  color: var(--tekst2);
+  text-align: start;
+  font-size: 1rem;
+}
+.footer_contact a {
+  font-family: small-text-light;
+  color: var(--tekst2);
+  font-size: 0.8rem;
+}
+footer .grid_1-1 {
+  margin: 2vh 2vh 5vh 2vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 1024px) {
+  .footer_contact h3 {
+    font-size: 1.2rem;
+  }
+  .footer_contact a {
+    font-size: 1rem;
+  }
+  footer .grid_1-1 {
+    margin: 5vh 20vh 5vh 20vh;
+    display: grid;
+    padding: 0;
+  }
 }

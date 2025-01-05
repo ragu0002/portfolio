@@ -50,16 +50,7 @@
   margin-right: 10vh;
   margin-left: 10vh;
 }
-.scroll_down img {
-  width: 8vh;
-  border: 2px solid var(--tekst2);
-  border-radius: 70px;
-  transition: all 0.3s ease;
-  margin: 0 auto;
-}
-.scroll_down:hover {
-  transform: scale(1.1);
-}
+
 .folder_caption {
   font-family: text;
   font-size: 0.8rem;
@@ -109,9 +100,6 @@
   }
   .grid_1-1-1-1 img {
     width: 20vh;
-  }
-  figcaption {
-    font-size: 1.1rem;
   }
 }
 /*OM MEG*/
