@@ -258,6 +258,10 @@ h3 {
   position: relative;
 }
 /*navigasjon*/
+#tilbake {
+  font-size: 0.7rem;
+  font-family: small-text-kursiv;
+}
 .tema_nav img {
   width: 140px;
   height: auto;
@@ -308,7 +312,6 @@ h3 {
   position: relative;
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
-  font-size: 0.7rem;
 }
 
 .tema1 a:hover,
@@ -402,6 +405,10 @@ a p {
   /*navigasjon*/
   .tema_nav img {
     width: 400px;
+  }
+  #tilbake {
+    font-size: 1.2rem;
+    margin-top: 0;
   }
   .tema1 {
     margin-left: -24vh;
