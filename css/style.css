@@ -119,7 +119,7 @@
 }
 #bilde img {
   width: 40vh;
-  margin: 0 auto;
+  margin: 0 auto 5vh auto;
   border: 2vh solid var(--tekst3);
 }
 .main_ommeg {
@@ -337,10 +337,14 @@ h3 {
 .informasjon_container p {
   color: var(--tekst3);
   font-size: 1.1rem;
+  text-align: start;
+  margin: 0vh 8vh 2vh 8vh;
 }
 .col p {
   margin: 0vh 8vh 2vh 8vh;
+  text-align: start;
 }
+
 .col ul {
   flex-direction: column;
   margin-left: 8vh;
@@ -349,6 +353,13 @@ h3 {
   font-family: small-text-light;
   color: var(--tekst3);
   margin-bottom: 2vh;
+}
+.col a {
+  display: flex;
+  justify-content: center;
+}
+.col a:hover {
+  transform: scale(1.1);
 }
 a p {
   color: var(--tekst3);
@@ -449,6 +460,9 @@ a p {
 
   .informasjon_container .grid_1-1 {
     padding: 2vh 10vh 5vh 10vh;
+  }
+  .col a {
+    justify-content: start;
   }
 }
 /*--------TEMA_HOVED---------*/

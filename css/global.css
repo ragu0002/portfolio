@@ -82,6 +82,7 @@ p {
   color: var(--tekst2);
   text-align: center;
   font-size: 0.7rem;
+  line-height: 1.2;
 }
 
 h1 {
@@ -100,9 +101,6 @@ h1 {
   font-family: text;
   color: var(--tekst2);
   text-align: center;
-}
-.col p {
-  text-align: start;
 }
 
 /*SECTIONS*/
@@ -161,9 +159,17 @@ hr {
 .circle {
   display: inline-block;
   padding: 10px 20px;
-  border: 2px solid var(--tekst2);
+  border: 1px solid var(--tekst2);
   border-radius: 50px;
 }
+.circle_2 {
+  padding: 10px 20px;
+  border: 2px solid var(--tekst3);
+  border-radius: 50px;
+  color: var(--tekst3);
+  margin: 0 22vh 0 22vh;
+}
+
 .scroll_down img {
   width: 8vh;
   border: 2px solid var(--tekst2);
