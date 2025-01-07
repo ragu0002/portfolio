@@ -44,13 +44,16 @@
 }
 .hero p {
   margin-top: -5vh;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
 }
 .forside_p {
   margin-right: 10vh;
   margin-left: 10vh;
 }
-
+.forside_p p {
+  font-size: 1.2rem;
+  color: var(--tekst1);
+}
 .folder_caption {
   font-family: text;
   font-size: 0.8rem;
@@ -87,8 +90,10 @@
     margin-bottom: 8vh;
   }
   .forside_p {
-    margin-right: 45vh;
-    margin-left: 45vh;
+    margin: 15vh 45vh 0 45vh;
+  }
+  .forside_p p {
+    font-size: 1.5rem;
   }
   p {
     font-size: 1.3rem;
@@ -100,6 +105,9 @@
   }
   .grid_1-1-1-1 img {
     width: 20vh;
+  }
+  .folder_caption {
+    font-size: 1rem;
   }
 }
 /*OM MEG*/
@@ -117,7 +125,7 @@
   grid-row: 3 / span 1;
   text-align: center;
 }
-#bilde img {
+.bilde img {
   width: 40vh;
   margin: 0 auto 5vh auto;
   border: 2vh solid var(--tekst3);
@@ -173,6 +181,9 @@ h3 {
 }
 .col4 {
   margin-bottom: 10vh;
+}
+.col4 a {
+  color: var(--tekst3);
 }
 @media (min-width: 1024px) {
   .main_ommeg {
@@ -233,7 +244,7 @@ h3 {
     grid-row: 1 / span 2;
     grid-column: 2 / span 1;
   }
-  #bilde img {
+  .bilde img {
     width: 50vh;
   }
   .h1_col h1:first-child {
@@ -257,6 +268,12 @@ h3 {
   margin-top: -6.2vh;
   position: relative;
 }
+.tekst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*navigasjon*/
 #tilbake {
   font-size: 0.7rem;
@@ -364,6 +381,16 @@ h3 {
 a p {
   color: var(--tekst3);
   margin-top: 1vh;
+  font-size: 0.7rem;
+}
+.tekst a {
+  margin-top: 3vh;
+}
+.cta_tema4 {
+  margin-top: 3vh;
+}
+.cta_tema4 a {
+  margin-top: 0;
 }
 
 @media (min-width: 551px) {
@@ -464,6 +491,9 @@ a p {
   .col a {
     justify-content: start;
   }
+  a p {
+    font-size: 1.2rem;
+  }
 }
 /*--------TEMA_HOVED---------*/
 #tema1 {
@@ -478,7 +508,11 @@ a p {
   margin-bottom: 2vh;
   width: 80%;
 }
-
+.grid_6 img {
+  width: 40vh;
+  margin: 0 auto 5vh auto;
+  border: 2vh solid var(--tekst3);
+}
 @media (min-width: 1024px) {
   #tema1 {
     margin-top: -13vh;
@@ -498,7 +532,9 @@ a p {
   .grid_6 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 5vh 10vh 5vh 10vh;
   }
+
   .grid_6 .p1 {
     grid-column: 1 / span 3;
     grid-row: 1 / span 1;
