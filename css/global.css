@@ -32,12 +32,6 @@ img {
 
 /*FONT*/
 @font-face {
-  font-family: small-text-light;
-  font-style: normal;
-  font-weight: normal;
-  src: local("Helvetica Light"), url("helvetica-light-587ebe5a59211.woff") format("woff");
-}
-@font-face {
   font-family: under-oversrift;
   font-style: normal;
   font-weight: normal;
@@ -45,14 +39,7 @@ img {
 }
 
 @font-face {
-  font-family: small-text-mørk;
-  font-style: normal;
-  font-weight: normal;
-  src: local("Helvetica"), url("Helvetica.woff") format("woff");
-}
-@font-face {
   font-family: text;
-
   font-style: normal;
   font-weight: normal;
   src: local("Helvetica"), url("Helvetica.woff") format("woff");
@@ -78,7 +65,7 @@ h4 {
   font-size: 1.5rem;
 }
 p {
-  font-family: small-text-light;
+  font-family: text;
   color: var(--tekst2);
   text-align: center;
   line-height: 1.2;
@@ -109,6 +96,8 @@ body {
   width: 100%;
   margin: 0;
   background-color: var(--bakgrunn);
+  min-width: 440px;
+  max-width: 1600px;
 }
 
 header {
@@ -216,7 +205,7 @@ footer hr {
   font-size: 1rem;
 }
 .footer_contact a {
-  font-family: small-text-light;
+  font-family: text;
   color: var(--tekst2);
   font-size: 0.8rem;
 }

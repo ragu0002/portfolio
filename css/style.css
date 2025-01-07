@@ -165,7 +165,7 @@ h3 {
   margin-top: -2vh;
 }
 .italic {
-  font-family: small-text-light;
+  font-family: text;
   font-style: oblique;
 }
 .col1 .bold,
@@ -367,7 +367,7 @@ h3 {
   margin-left: 8vh;
 }
 .col li {
-  font-family: small-text-light;
+  font-family: text;
   color: var(--tekst3);
   margin-bottom: 2vh;
 }
